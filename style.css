@@ -1,0 +1,2102 @@
+/* ========= Général ======= */
+
+@font-face {
+    font-family: 'greyscalebasicregular';
+    src: url('font/Greyscale_Basic_Regular-webfont.eot');
+    src: url('font/Greyscale_Basic_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Greyscale_Basic_Regular-webfont.woff2') format('woff2'),
+         url('font/Greyscale_Basic_Regular-webfont.woff') format('woff'),
+         url('font/Greyscale_Basic_Regular-webfont.ttf') format('truetype'),
+         url('font/Greyscale_Basic_Regular-webfont.svg#greyscalebasicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth;
+    background: url('img/Div/geo2.jpg') fixed;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 6% auto 5% auto;
+    padding: 0;
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 80px;
+    color: orange;
+}
+h2{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 60px;
+    color: orange;
+    padding: 1.5%;
+    margin: -4.1% 60% 2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.white{
+    width: 100%;
+    padding: 3% 0%;
+    
+}
+
+/* ================ Navigateur =================== */
+
+nav{
+    background-color: #66A9E3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+    align-items: center;
+    width: 100%;
+    padding:  0%;
+    position: fixed;
+    z-index: 5;
+}
+#navig{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin: 0% 1%;
+    padding: 0%;
+}
+#divname{
+    padding: 0% 1%;
+}
+#nom{
+    margin: 0%;
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0%;
+    color: orange;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 1% 2%;
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+}
+#navig li a{
+    text-decoration: none;
+    color: orange;
+}
+#navig li a:hover{
+    color: white;
+}
+#navig li a:active{
+    color: #66A9E3;
+}
+/* ============= Presentation ============= */
+
+#textpre{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.5);
+    margin: -1% 30% 10% 30%;
+    padding: 1%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#pres{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Div/geo1.png);
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+    z-index: 2;
+}
+
+/* ==================== CV ================= */
+
+#contcv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4% 0% 5% 0%;
+    width: 100%;
+}
+.cvid{
+    background: url(img/Div/geo2.jpg);
+    width: 30%;
+    padding: 1% 0.5%;
+    margin: 0%;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.cvid li{
+    font-size: 20px;
+    color: white;
+    margin: 1.5% 0%;
+    padding: 0%;
+    width: 100%;    
+}
+span{
+    color: orange;
+}
+.cvid ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+#cv{
+    background: url(img/Div/geo1.png);
+    margin: 0%;
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+    z-index: 2;
+    width: 95%;
+}
+.htcv{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -10% 5% 3% -5%;
+    width: 40%;
+    color: orange;
+}
+
+/* ================== Interet ====================== */
+
+#interet{
+    background: url(img/Div/geo1.png);
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+    z-index: 2;
+    width: 95%;
+}
+
+.hqint{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -5.5% 0% 0% -8%;
+    width: 50%;
+    color: orange;
+}
+#contint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+#gauche, #droite{
+    margin: 2%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* ================== Asso ============= */
+
+#asso{
+    margin: 5%;
+    padding: 2%;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#srvh, #bk, #beton, #ilot{
+    margin: 4% 2%;
+    height: 45%;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#assoens{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+#assleft, #assright{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0%;
+}
+.txtasso{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0;
+    padding: 3%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.hqasso{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -3.5% 0% 0% 4%;
+    width: 100%;
+    color: orange;
+}
+
+/* ========= Jeux Vidéo ============== */
+
+.hqjv{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0% -2% -1.3% 10%;
+    padding: 0%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+#jv{
+    width: auto;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#retro{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#actu{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.txtjv{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0%;
+    padding: 10% 5%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+/* ========== informatique =========== */
+
+.txtinf{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0%;
+    padding: 10%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+#inf{
+    margin: 5%;
+    padding: 2%;
+    height: auto;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#infens{
+    margin: 0%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#hw{
+    margin: 0% 1% 0% 0%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#code{
+    margin: 0% 1% 0% 1%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#bid{
+    margin: 0% 0% 0% 1%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+.hqinf{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -6% -5% 5% 50%;
+    padding: 0%;
+    color: orange;
+}
+
+/* ========= Musique ================= */
+
+.hqzik{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0% -2% -1.3% 10%;
+    padding: 0%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+.txtzik{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+#zik{
+    width: auto;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#percu{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#concert{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* ========= Japon ================ */
+
+#jap{
+    margin: 5%;
+    padding: 2%;
+    height: auto;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#japens{
+    margin: 0%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#jzik{
+    margin: 0% 1% 0% 0%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#anim{
+    margin: 0% 1% 0% 1%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#cult{
+    margin: 0% 0% 0% 1%;
+    padding : 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+.txtjap{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0%;
+    padding: 10%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.hqjap{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -7% -5% 5% 50%;
+    padding: 0%;
+    color: orange;
+}
+/* ============Autre ================ */
+.hqaut{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0% -2% -1.3% 10%;
+    padding: 0%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+.txtaut{
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    background: rgba(55,173,174,0.3);
+    margin: 0% 0% 0% 0%;
+    padding: 5% 5%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+#autre{
+    width: auto;
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background: #17a9c0;
+    border-radius: 10px;
+}
+#mod{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#brico{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: url(img/Div/geo2.jpg);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+#brico img, #mod img, #cult img, #anim img, #jzik img, #srvh img, #bk img, #beton img, #ilot img, #hw img, #code img, #bid img, #jv img, #retro img, #percu img, #concert img{
+    min-width: 100px;
+}
+
+/* =============WEBDEV===================== */
+#devweb{
+    background: url(img/Div/geo1.png);
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+    z-index: 2;
+    width: 95%;
+}
+#devens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0% 3% 3% 3%;
+    margin: 0% 0% 0% 0%;
+}
+
+#proj{
+    height: 55%;
+    position: relative;
+    z-index: 1;
+    margin: 0% 0% 3% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px; 
+}
+#outil{
+    height: 55%;
+    position: relative;
+    z-index: 1;
+    margin: 3% 0% 0% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+    }
+
+#inspi{
+    height: 55%;
+    position: relative;
+    z-index: 1;
+    margin: 0% 0% 3% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+    }
+
+#cours{
+    height: 55%;
+    position: relative;
+    z-index: 1;
+    margin: 3% 0% 0% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#partleft{
+    margin: 3% 0% 3% 3%;
+    width: 80%;
+    padding: 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+#partright{
+    margin: 3% 3% 3% 0%;
+    width: 80%;
+    padding: 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#partcentre{
+    height: 50%;
+    z-index: 2;
+    width: 50%;
+    margin: auto 0% auto 0%;
+}
+#partcentrebis{
+    display: none;
+}
+.iludev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0%;
+    height: 100%;
+}
+.txtdev{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    font-family: 'greyscalebasicregular';
+    text-align: center;
+    color: white;
+    height: auto;
+    font-size: 15px;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.txtdev p{
+    background: rgba(55,173,174,0.4);
+    margin: 0%;
+    padding: 3%;
+}
+.txtdevbis{
+    display: none;
+}
+#txtbg p, #txtbd p{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#txthg p, #txthd p{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#txtwd{
+    padding: 5%;
+    margin: 2%;
+    display: flex;
+    text-align: center;
+    height: auto;
+    align-items: center;
+    background: url(img/Div/geo2.jpg);
+    border-radius: 10px;
+}
+#txtwd p{
+    margin: 0%;
+    font-family: 'greyscalebasicregular';
+    color: white;
+    font-size: 15px;
+}
+#txtwdbis{
+    display: none;
+}
+.cel{
+    width: 25%;
+    margin: 3% 0.5% 3% 0.5%;
+    background: #17a9c0;
+    display: flex;
+    border-radius: 10px;
+    height: auto;
+    padding: 0%;
+    align-items: center;
+}
+.cel a{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+.cel:hover{
+    width: 25%;
+    margin: 3% 0.5% 3% 0.5%;
+    background: orange;
+    display: flex;
+    border-radius: 10px;
+}
+.cel:active{
+    width: 25%;
+    margin: 3% 0.5% 3% 0.5%;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+}
+#htproj{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2% 5% -2% -5%;
+    width: 100%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+#htout{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: -3% 5% 3% -5%;
+    width: 100%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+#htoutbis{
+    display: none;
+}
+#htinsp{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2% -5% -2% 5%;
+    width: 100%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+#htcour{
+    font-family: 'greyscalebasicregular';
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -3% -5% 3% 5%;
+    width: 100%;
+    color: orange;
+    position: relative;
+    z-index: 2;
+}
+#htcourbis{
+    display: none;
+}
+/*============== FOOTER ====================== */
+
+footer{
+    background: url(img/Div/geo1.png);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+    width: 100%;
+}
+#contact{
+    margin: 0% 1%;
+    padding: 0%;
+    display: flex;
+    font-family: 'greyscalebasicregular';
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contact p{
+    margin: 0%;
+    padding: 0%
+}
+#mail{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: white;
+    font-size: 18px;
+}
+#mail:hover{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: orange;
+}
+#mail:active{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: #66A9E3;
+}
+#tel{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: white;
+    font-size: 14px;
+}
+#tel:hover{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: orange;
+}
+#tel:active{
+    text-decoration: none;
+    font-family: 'greyscalebasicregular';
+    color: #66A9E3;
+}
+#maj{
+    font-size: 13px;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#social a{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#sign{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: 'greyscalebasicregular';
+    color: white;
+}
+#sign p{
+    margin: 0;
+    padding: 0;
+}
+
+/* ========= IMAGE ============= */
+
+#imgmoi{
+    width: 15%;
+    border-radius: 50%;
+    border: solid orange 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+}
+#imgsrvh, #imgbeton, #imgbk, #imgilo{
+    width: 30%;
+    display: flex;
+    margin: 1% auto;
+}
+#imgretro, #imgact{
+    max-width: 20%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imghw, #imgcode, #imgbid{
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgpercu, #imgconc{
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgmod, #imgbrico{
+    width: 50%;
+    margin: auto;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgjzik, #imganim, #imgjap{
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgpfc, #imgrom, #imgdrum, #imgjeu, #imgocr, #imgfcc, #imgcodaca, #imgpg, #imgmt, #imgga, #imgcd, #imgfrog, #imgfs, #imgcc, #imgflex, #imgcp{
+    width: 100%;
+    border-radius: 50%;
+    margin: 0%;
+}
+#arrow{
+    background: url('img/Div/arowup3.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px; 
+    right: 50px;
+    position: fixed;
+    z-index: 5;
+}
+#arrow:hover{
+    background: url('img/Div/arowup2.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px; 
+    right: 50px;
+    position: fixed;
+    z-index: 5;
+}
+#arrow:active{
+    background: url('img/Div/arowup6.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px; 
+    right: 50px;
+    position: fixed;
+    z-index: 5;
+}
+#imgfb, #imgin, #imgins{
+    width: 72px;
+    margin: 5%;
+    border-radius: 22px;
+}
+#imgfb:hover{
+    background-color: blue;
+}
+#imgin:hover{
+    background-color: rgb(72, 72, 226);
+}
+#imgfb:active, #imgin:active, #imgins:active{
+    background-color: orange;
+}
+#imgins:hover{
+    background-image: linear-gradient(to bottom right, rgb(127, 28, 219),rgb(165, 27, 80), rgb(212, 71, 6), rgb(238, 202, 0));
+}
+#imgfb:active, #imgin:active, #imgins:active{
+    background: orange;
+}
+/*----------- RESPONSIVE ------------------ */
+
+@media all and (max-width: 1024px){
+    html {
+        scroll-behavior: smooth;
+      }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        margin: 20% auto 5% auto;
+        padding: 0%;
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 50px;
+        color: orange;
+    }
+    h2{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 45px;
+        color: orange;
+        padding: 1.5%;
+        margin: -35px 0px 20px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .white{
+        width: 100%;
+        padding: 7% 0%;
+    }
+    
+    /* ================ Navigateur =================== */
+    
+    nav{
+        background-color: #66A9E3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.73);
+        align-items: center;
+        width: 100%;
+        padding:  0%;
+        position: fixed;
+        z-index: 5;
+    }
+    #navig{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0% 1%;
+        padding: 0%;
+    }
+    #divname{
+        padding: 0% 1%;
+    }
+    #nom{
+        margin: 0%;
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 30px;
+        padding: 0%;
+        color: orange;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        margin: 1% 2%;
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #navig li a{
+        text-decoration: none;
+        color: orange;
+    }
+    #navig li a:hover{
+        color: orange;
+    }
+    #navig li a:active{
+        color: white;
+    }
+    
+    
+    /* ============= Presentation ============= */
+    
+    #textpre{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.5);
+        margin: -5% 5% 5% 5%;
+        padding: 1%;
+        height: 100%;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    #pres{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        background: url(img/Div/geo1.png);
+    }
+    
+    /* ==================== CV ================= */
+    
+    #contcv{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+    .cvid{
+        background: url(img/Div/geo2.jpg);
+        width: 100%;
+        padding: 0%;
+        margin: 2% 0%;
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .cvid li{
+        font-size: 15px;
+        color: white;
+        margin: 1.5% 0%;
+        padding: 0%;
+        width: 100%;    
+    }
+    span{
+        color: orange;
+    }
+    .cvid ul{
+        margin: 0%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: auto;
+    }
+    #cv{
+        background: url(img/Div/geo1.png);
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        width: 95%;
+    }
+    .htcv{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -17px 0px 10px 10px;
+        width: auto;
+        color: orange;
+    }
+    
+    /* ================== Interet ====================== */
+    
+    #interet{
+        background: url(img/Div/geo1.png);
+        width: 95%;
+    }
+    .hqint{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -35px 0px 35px 0px;
+        width: 100%;
+        color: orange;
+    }
+    #contint{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+    #gauche, #droite{
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    /* ================== Asso ============= */
+    
+    #asso{
+        margin: 2%;
+        padding: 2%;
+        background: #17a9c0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    #srvh, #bk, #beton, #ilot{
+        margin: 4% 2%;
+        height: auto;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    #assoens{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+    }
+    #assleft, #assright{
+        width: 50%;
+        height: auto;
+        margin: 0;
+        padding: 0%;
+    }
+    .txtasso{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0;
+        padding: 3%;
+        height: auto;
+        min-height: 200px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .hqasso{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 17px;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -10px 0px 0px 0px;
+        width: 100%;
+        color: orange;
+    }
+    
+    /* ========= Jeux Vidéo ============== */
+    
+    .hqjv{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px -15px 0px;
+        padding: 0%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    #jv{
+        width: auto;
+        margin: 5%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        background: #17a9c0;
+        border-radius: 10px;
+    }
+    #retro{
+        width: auto;
+        margin: 1% 0%;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    #actu{
+        width: auto;
+        margin: 1% 0%;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .txtjv{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0%;
+        padding: 2%;
+        height: auto;
+        min-height: 220px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    
+    /* ========== informatique =========== */
+    
+    .txtinf{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0%;
+        padding: 2%;
+        height: 100%;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+    #inf{
+        margin: 5%;
+        padding: 2%;
+        height: auto;
+        background: #17a9c0;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #infens{
+        margin: 0%;
+        padding : 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #hw{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    #code{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    #bid{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    .hqinf{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: -10px 0px 10px 0px;
+        padding: 0%;
+        color: orange;
+    }
+    
+    /* ========= Musique ================= */
+    
+    .hqzik{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0px -15px 0px;
+        padding: 0%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    .txtzik{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0% 0% 0% 0%;
+        padding: 2%;
+        height: auto;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    #zik{
+        width: auto;
+        margin: 5%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #17a9c0;
+        border-radius: 10px;
+    }
+    #percu{
+        width: auto;
+        margin: 1% 0%;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    #concert{
+        width: auto;
+        margin: 1% 0%;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    
+    /* ========= Japon ================ */
+    
+    #jap{
+        margin: 5%;
+        padding: 2%;
+        height: auto;
+        background: #17a9c0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #japens{
+        margin: 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #jzik{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    #anim{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    #cult{
+        margin: 2% 0%;
+        padding : 0%;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    .txtjap{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0%;
+        padding: 2%;
+        height: 100%;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .hqjap{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: -10px 0px 10px 0px;
+        padding: 0%;
+        color: orange;
+    }
+    /* ============Autre ================ */
+    .hqaut{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 10px 0px -10px 0px;
+        padding: 0%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    .txtaut{
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        background: rgba(55,173,174,0.3);
+        margin: 0% 0% 0% 0%;
+        padding: 2%;
+        height: auto;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    #autre{
+        width: auto;
+        margin: 5%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        background: #17a9c0;
+        align-items: center;
+        border-radius: 10px;
+    }
+    #mod{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    #brico{
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: url(img/Div/geo2.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    
+    
+    /* =============WEBDEV===================== */
+    #devweb{
+        background: url(img/Div/geo1.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+    #devens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+    #proj{
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin:0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px; 
+    }
+    #outil{
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin:0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+        }
+    
+    #inspi{
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+        }
+    
+    #cours{
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin:0%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+    }
+    #partleft{
+        margin: 0% 5%;
+        position: relative;
+        width: auto;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #partright{
+        margin: 0% 5% 5% 5%;
+        position: relative;
+        width: auto;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #partcentre{
+        display: none;
+    }
+    #partcentrebis{
+        height: auto;
+        z-index: 2;
+        width: auto;
+        margin: 5% 5% 0% 5%;
+        display: block;
+    }
+    .iludev{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        padding: 1%;
+        height: auto;
+    }
+    .txtdev{
+        display: none;
+    }
+    .txtdev p{
+        background: rgba(55,173,174,0.4);
+        margin: 0%;
+        padding: 3%;
+    }
+    .txtdevbis{
+        margin: auto;
+        padding: auto;
+        display: flex;
+        font-family: 'greyscalebasicregular';
+        text-align: center;
+        color: white;
+        height: auto;
+        font-size: 15px;
+        align-items: center;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .txtdevbis p{
+        background: rgba(55,173,174,0.4);
+        margin: 0%;
+        padding: 2%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #txtbgbis p, #txtbdbis p{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #txthgbis p, #txthdbis p{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #txtwd{
+        width: auto;
+        margin: 0%;
+        padding: 4%;
+        text-align: center;
+        height: auto;
+        align-items: center;
+        background: url(img/Div/geo2.jpg);
+        border-radius: 10px;
+        display: block;
+    }
+    #txtwd p{
+        margin: 0%;
+        font-family: 'greyscalebasicregular';
+        color: white;
+        font-size: 15px;
+    }
+    .cel{
+        width: 25%;
+        margin: 3% 0.5% 3% 0.5%;
+        background: #17a9c0;
+        display: flex;
+        border-radius: 10px;
+        height: auto;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+    .cel a{
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+    .cel:hover{
+        background: #17a9c0;
+    }
+    .cel:active{
+        width: 25%;
+        margin: 3% 0.5% 3% 0.5%;
+        background: orange;
+        display: flex;
+        border-radius: 10px;
+    }
+    #htproj{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px -10px 0px;
+        width: 100%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    #htout{
+        display: none;
+    }
+    #htoutbis{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px -10px 0px;
+        width: 100%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    #htinsp{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px -10px 0px;
+        width: 100%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    #htcour{
+        display: none;
+    }
+    #htcourbis{
+        font-family: 'greyscalebasicregular';
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin: 15px 0px -10px 0px;
+        width: 100%;
+        color: orange;
+        position: relative;
+        z-index: 2;
+    }
+    /*============== FOOTER ====================== */
+    
+    footer{
+        background: url(img/Div/geo1.png);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0%;
+        max-height: 60px;
+    }
+    #contact{
+        margin: 0% 1%;
+        padding: 0%;
+        display: flex;
+        font-family: 'greyscalebasicregular';
+        color: white;
+        flex-direction: column;
+        font-size: 10px;
+        justify-content: space-around;
+    }
+    #contact p{
+        margin: 0%;
+        padding: 0%
+    }
+    #social{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    #social a{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    #mail{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: white;
+        font-size: 14px;
+    }
+    #mail:hover{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: white;
+    }
+    #mail:active{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: orange;
+    }
+    #tel{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: white;
+        font-size: 12px;
+    }
+    #tel:hover{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: white;
+    }
+    #tel:active{
+        text-decoration: none;
+        font-family: 'greyscalebasicregular';
+        color: orange;
+    }
+    #maj{
+        font-size: 10px;
+    }
+    #sign{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        font-family: 'greyscalebasicregular';
+        color: white;
+        font-size: 6px;
+    }
+    #sign p{
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* ========= IMAGE ============= */
+    
+    #imgmoi{
+        width: 30%;
+        border-radius: 50%;
+        border: solid orange 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        z-index: 2;
+    }
+    #imgsrvh, #imgbeton, #imgbk, #imgilo{
+        height: 100px;
+        min-height: 100px;
+        display: flex;
+        margin: 1% auto;
+    }
+    #imgretro, #imgact{
+        min-width: 20px;
+        margin: 0%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #imghw, #imgcode, #imgbid{
+        max-width: 20px;
+        margin: 0%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgpercu, #imgconc{
+        width: 20px;
+        margin: 0%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgmod, #imgbrico{
+        width: 20px;
+        margin: 0%;
+        padding: 3%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgjzik, #imganim, #imgjap{
+        width: 20px;
+        margin: 0%;
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #imgpfc, #imgrom, #imgdrum, #imgjeu, #imgocr, #imgfcc, #imgcodaca, #imgpg, #imgmt, #imgga, #imgcd, #imgfrog, #imgfs, #imgcc, #imgflex, #imgcp{
+        width: 100%;
+        border-radius: 50%;
+        margin: 0%;
+    }
+    #arrow{
+        background: url('img/Div/arowup8.png');
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 10px; 
+        right: 45%;
+        position: fixed;
+        z-index: 5;
+    }
+    #arrow:hover{
+        background: url('img/Div/arowup8.png');
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 10px; 
+        right: 45%;
+        position: fixed;
+        z-index: 5;
+    }
+    #arrow:active{
+        background: url('img/Div/arowup9.png');
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 10px; 
+        right: 45%;
+        position: fixed;
+        z-index: 5;
+    }
+    #imgfb, #imgin, #imgins{
+        width: 50px;
+        margin: 5%;
+        border-radius: 15px;
+    }
+    #imgfb:hover{
+        background:none;
+    }
+    #imgin:hover{
+        background:none;
+    }
+    #imgins:hover{
+        background:none;
+    }
+    #imgfb:active{
+        background: blue;
+    }
+    #imgin:active{
+        background-color: rgb(72, 72, 226);
+    }
+    #imgins:active{
+        background-image: linear-gradient(to bottom right, rgb(127, 28, 219),rgb(165, 27, 80), rgb(212, 71, 6), rgb(238, 202, 0));
+    }
+
+}
