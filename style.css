@@ -172,7 +172,7 @@ span{
     height: 100%;
     width: 100%;
 }
-.xppro li ul li span{
+.xppro li ul > span{
     font-size: 15px;
     color: white;
 }
