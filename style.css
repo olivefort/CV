@@ -173,7 +173,8 @@ span{
     width: 100%;
 }
 .xppro li ul li span{
-    font-size: 10px;
+    font-size: 15px;
+    color: white;
 }
 #cv{
     background: url(img/Div/geo1.png);
