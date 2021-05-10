@@ -172,6 +172,9 @@ span{
     height: 100%;
     width: 100%;
 }
+.xppro li ul li span{
+    font-size: 10px;
+}
 #cv{
     background: url(img/Div/geo1.png);
     margin: 0%;
