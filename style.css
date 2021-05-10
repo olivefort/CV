@@ -172,14 +172,6 @@ span{
     height: 100%;
     width: 100%;
 }
-.xpdesc{
-    font-size: 15px;
-    color: white;
-}
-.xppro li ul{
-    color: orange;
-    font-size: 18px;
-}
 #cv{
     background: url(img/Div/geo1.png);
     margin: 0%;
@@ -198,7 +190,15 @@ span{
     width: 40%;
     color: orange;
 }
-
+.hqxp{
+    font-weight: bold;
+    color: orange;
+    font-size: 20px;
+}
+.xpdesc{
+    color: white;
+    font-size: 15px;
+}
 /* ================== Interet ====================== */
 
 #interet{
