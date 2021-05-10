@@ -160,8 +160,7 @@ li{
     padding: 0%;
     width: 100%;    
 }
-span,
-.xppro li ul{
+span{
     color: orange;
 }
 .cvid ul{
@@ -177,7 +176,10 @@ span,
     font-size: 15px;
     color: white;
 }
-
+.xppro li ul{
+    color: orange;
+    font-size: 18px;
+}
 #cv{
     background: url(img/Div/geo1.png);
     margin: 0%;
