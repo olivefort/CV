@@ -2039,7 +2039,7 @@ footer{
         justify-content: center;
     }
     #imgpfc, #imgrom, #imgdrum, #imgjeu, #imgocr, #imgfcc, #imgcodaca, #imgpg, #imgmt, #imgga, #imgcd, #imgfrog, #imgfs, #imgcc, #imgflex, #imgcp{
-        width: 100%;
+        height: 100%;
         border-radius: 50%;
         margin: 0%;
     }
